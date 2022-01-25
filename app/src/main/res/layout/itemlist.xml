@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:padding="4dp" />
+
+
+            <TextView
+                android:id="@+id/tvgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:layout_below="@+id/tvpname"
+                android:text="Grade"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvquantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvgrade"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:text="Available Quantity"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/Producername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Price"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@id/imageView"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Producer's name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvquantity"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/imageView"
+                android:text="PRICE"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvpname"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="170dp"
+                android:layout_marginRight="180dp"
+                android:layout_toLeftOf="@+id/imageView"
+                android:hint="Productname"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/qty"
+                android:layout_width="70dp"
+                android:layout_height="21dp"
+                android:layout_below="@+id/tvgrade"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="124dp"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="196dp"
+                android:layout_marginRight="196dp"
+                android:gravity="center_vertical"
+                android:text="Qty (kg):"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tvprice"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_above="@+id/Producername"
+                android:layout_below="@+id/qty"
+                android:layout_alignStart="@+id/imageView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_marginStart="125dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_toRightOf="@+id/imageView"
+                android:text="Rs(per kg) :"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

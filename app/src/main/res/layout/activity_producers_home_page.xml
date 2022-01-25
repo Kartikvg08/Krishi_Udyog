@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:isScrollContainer="true"
+    tools:context=".ProducersHomePage">
+
+    <ImageView
+        android:id="@+id/additem"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        app:srcCompat="@drawable/add_item" />
+
+    <TextView
+        android:id="@+id/tvadditem"
+        android:layout_width="105dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="364dp"
+        android:gravity="center_horizontal"
+        android:text="Add Item"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/additem"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/orders"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/additem"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        app:srcCompat="@drawable/orders" />
+
+    <TextView
+        android:id="@+id/tvorders"
+        android:layout_width="105dp"
+        android:layout_height="27dp"
+        android:gravity="center_horizontal"
+        android:text="Orders"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/tvadditem"
+        app:layout_constraintTop_toBottomOf="@+id/orders"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/notifications"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvadditem"
+        app:layout_constraintVertical_bias="0.097"
+        app:srcCompat="@drawable/notifications" />
+
+    <ImageView
+        android:id="@+id/customers"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/notifications"
+        app:layout_constraintTop_toBottomOf="@+id/tvorders"
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@drawable/customers" />
+
+    <TextView
+        android:id="@+id/tvwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#4CAF50"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/additem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvnotifications"
+        android:layout_width="105dp"
+        android:layout_height="27dp"
+        android:gravity="center_horizontal"
+        android:text="Notifications"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notifications"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvcustomers"
+        android:layout_width="107dp"
+        android:layout_height="27dp"
+        android:gravity="center_horizontal"
+        android:text="Customers"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvnotifications"
+        app:layout_constraintTop_toBottomOf="@+id/customers"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btlogout"
+        android:layout_width="105dp"
+        android:layout_height="47dp"
+        android:background="@drawable/custombuttom"
+        android:text="LogOut"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <ImageView
+        android:id="@+id/viewitems"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvnotifications"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/viewproducts" />
+
+    <TextView
+        android:id="@+id/tvvitems"
+        android:layout_width="105dp"
+        android:layout_height="27dp"
+        android:text="View Items"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewitems"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/schemes"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toEndOf="@+id/viewitems"
+        app:layout_constraintTop_toBottomOf="@+id/tvcustomers"
+        app:layout_constraintVertical_bias="0.17000002"
+        app:srcCompat="@mipmap/scheme" />
+
+    <TextView
+        android:id="@+id/tvscheme"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="2dp"
+        android:text="Krishi Schemes"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/tvvitems"
+        app:layout_constraintTop_toBottomOf="@+id/schemes"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

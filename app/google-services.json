@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "654350680699",
+    "project_id": "mad-project-krishiudyog",
+    "storage_bucket": "mad-project-krishiudyog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654350680699:android:71874e4ace9be741a2d8de",
+        "android_client_info": {
+          "package_name": "com.example.krishiudyog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654350680699-8dp406rbgo5uigtv8608fd67n4i1rmg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishiudyog",
+            "certificate_hash": "c053bcef29c5af7765a0c3a9c91bc7464d4ab8dc"
+          }
+        },
+        {
+          "client_id": "654350680699-ia4j90po0bher2s4k8uv0qgbc9sfj458.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy_TRh9RF0LuBDECHc7fQf9t9G2drUTzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654350680699-ia4j90po0bher2s4k8uv0qgbc9sfj458.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

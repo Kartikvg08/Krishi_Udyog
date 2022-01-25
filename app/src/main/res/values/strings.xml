@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">KrishiUdyog</string>
+    <string name="title_activity_adminlogin">adminlogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_customlogin">customlogin</string>
+    <string name="title_activity_producelogin">producelogin</string>
+
+    <string name="todo">todo</string>
+    <string name="wheat">wheat</string>
+    <string name="grade1">grade1</string>
+    <string name="Rs_200">Rs_200</string>
+
+    <array name="Quality">
+        <item>Grade 1</item>
+        <item>Grade 2</item>
+        <item>Grade 3</item>
+    </array>
+    <array name="Items">
+        <item>ONION</item>
+        <item>POTATO</item>
+        <item>CABBAGE</item>
+        <item>RICE</item>
+        <item>WHEAT</item>
+        <item>CAULIFLOWER</item>
+        <item>BRINJAL</item>
+        <item>CARROT</item>
+        <item>RADDISH</item>
+        <item>GREEN BEANS</item>
+        <item>CAPSICUM</item>
+    </array>
+    <array name="Itemsearch">
+        <item>Please Select an Item</item>
+        <item>ONION</item>
+        <item>POTATO</item>
+        <item>CABBAGE</item>
+        <item>RICE</item>
+        <item>WHEAT</item>
+        <item>CAULIFLOWER</item>
+        <item>BRINJAL</item>
+        <item>CARROT</item>
+        <item>RADDISH</item>
+        <item>GREEN BEANS</item>
+        <item>CAPSICUM</item>
+    </array>
+</resources>
